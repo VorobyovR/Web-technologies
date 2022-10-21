@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 150px;
+    background-image: url(img_HW_2/header.jpg);
+    display: flex;
+    background-size: cover;
+
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 1400px;
+    background-color: #B3E5FC;
+    border: 1px solid #5882a1;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 0 25px 20px;
+    color: rgb(79, 36, 119);
+    font-size: 13px;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.8;
+}
+
+.entry-title {
+    color: #183142;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+   
+}
+
+.leng {
+    width: 1500px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+}
+
+.leng p {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    background-color: #B3E5FC;
+    border-radius: 10px;
+    padding: 15px 0 25px 20px;
+}
+
+.leng-JS {
+    color: #183142;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.leng-C {
+    color: #183142;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.leng-J {
+    color: #183142;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.slide1 {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 170px;
+}
+
+.text-1 {
+    color: #183142;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.text-2 {
+    color: #183142;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text-3 {
+    color: #1ba12d;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.graph {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 150px;
+    background-image: url(img_HW_2/footer.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.description {
+    color: aquamarine;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description:hover {
+    color: rgb(205, 228, 220);
+}
+
+.footer-link {
+    text-decoration: none;
+}
